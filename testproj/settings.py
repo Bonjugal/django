@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '9#2x596g4cdn$jmuscqwmgnfm(4=wq3h5(!j=!0bwdcj&^uk1h'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost','*']
 
@@ -118,7 +118,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR, 'polls/static')
 #STATIC_ROOT = '/Users/bonjugal/Desktop/Pycharm/learnDjango/python3.6/testproj/polls/static'
 STATIC_URL = '/static/'
 
